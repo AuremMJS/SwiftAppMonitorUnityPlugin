@@ -1,0 +1,11 @@
+framework module AppMonitor_Plugin {
+  umbrella header "AppMonitor_Plugin.h"
+
+  export *
+  module * { export * }
+}
+
+module AppMonitor_Plugin.Swift {
+    header "AppMonitor_Plugin-Swift.h"
+    requires objc
+}
